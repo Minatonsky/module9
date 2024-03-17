@@ -42,8 +42,8 @@ def load_quotes(file_path):
 
 if __name__ == '__main__':
 
-    authors_json_file_path = 'test_spyder/authors.json'
-    quotes_json_file_path = 'test_spyder/quotes.json'
+    authors_json_file_path = 'authors.json'
+    quotes_json_file_path = 'quotes.json'
 
     load_authors(authors_json_file_path)
     load_quotes(quotes_json_file_path)
